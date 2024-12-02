@@ -45,6 +45,7 @@ int main(void){
         printf("You have found a valid x\n");
         printf("p is %d, q is %d, and r is %d\n", p,q,r);
     } else {
+        printf("p is %d, q is %d, and r is %d\n", p,q,r);
         printf("Try again!\n");
     }
 
