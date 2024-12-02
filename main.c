@@ -4,7 +4,6 @@
 
 /* This function should return 1 if x is prime and 0 otherwise */
 int isPrime(int x){
-    int temp_num = 0;
     for(int i = 2; i <= x/2; i++) {
         if (x % i == 0){
             return 0;
