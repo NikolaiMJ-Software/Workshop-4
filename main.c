@@ -8,10 +8,18 @@ int isPrime(int x){
 
 /* This function should return 1 if gcd(x,2)=1 and 0 otherwise */
 int isGcd1(int x){
+    if (x % 2 == 1) {
+        return 1;
+    }
+    return 0;
 }
 
 /* This function should return 1 if 9^x-2 mod 5 = 2 and 0 otherwise */
 int is2mod5(int x){
+    if (9 * x % 5 == 2) {
+        return 1;
+    }
+    return 0;
 }
 
 
